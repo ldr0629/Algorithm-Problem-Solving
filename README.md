@@ -1,6 +1,6 @@
 Algorithm Problem Solving
 
-▶ input/output
+▶ input/output \n
 ▶ dynamic programming
 ▶ sort, string, data structure 
 ▶ graph 
