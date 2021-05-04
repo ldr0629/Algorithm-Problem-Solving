@@ -1,7 +1,5 @@
 Algorithm Problem Solving (Baekjoon)
 
-▶ input/output 
-
 
 ▶ dynamic programming
 
