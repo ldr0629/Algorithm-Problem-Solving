@@ -6,7 +6,8 @@ bool cmp(int a, int b) {
 	return a < b;
 }
 
-int main() {
+// 이중 반복문 이용
+int main() { 
 	int row, col, min;
 	cin>>row>>col;
 	
