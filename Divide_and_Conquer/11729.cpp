@@ -7,9 +7,9 @@ void hanoi_tower(int n, int from, int temp, int to) {
 		printf("%d %d\n",from ,to);
 	}
 	else {
-		hanoi_tower(n-1, from, to, temp);
+		hanoi_tower(n-1, from, to, temp); // from으로부터 to를 이용해 temp 자리에 옮긴다.
 		printf("%d %d\n",from ,to);
-		hanoi_tower(n-1, temp, from, to);
+		hanoi_tower(n-1, temp, from, to); // temp에 있는 원판들로부터 from 자리를 이용해 to로 옮긴다.
 	}
 }
 
