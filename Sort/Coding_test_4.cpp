@@ -32,8 +32,6 @@ int main()
 	for(int i = 0; i<k; i++) { 
 		if(A[i]<B[i])
 			A[i] = B[i];
-		else
-			break;
 	}
 	
 	for(int i = 0; i<n; i++) {
