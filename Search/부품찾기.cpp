@@ -38,7 +38,7 @@ int main()
 		cin>>custom[i];
 	}
 	
-	for(int i = 0; i<m; i++) { // 시간 복잡도 : O(M * logN)
+	for(int i = 0; i<m; i++) { // 시간 복잡도 : O((M+N) * logN)
 		result = search(store, 0, n-1, custom[i]);
 		if(result==-1) {
 			cout<<"no ";
