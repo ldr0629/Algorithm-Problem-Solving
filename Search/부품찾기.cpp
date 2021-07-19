@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 int search(int arr[], int start, int end, int target) {
@@ -14,6 +15,10 @@ int search(int arr[], int start, int end, int target) {
 	}
 }
 
+bool cmp(int a, int b) {
+	return a<b;
+}
+
 int main()
 {							
 	ios::sync_with_stdio(false);
@@ -25,6 +30,7 @@ int main()
 	for(int i = 0; i<n; i++) {
 		cin>>store[i];
 	}
+	sort(store, store+n, cmp);
 	
 	cin>>m;
 	int custom[m];
@@ -32,7 +38,7 @@ int main()
 		cin>>custom[i];
 	}
 	
-	for(int i = 0; i<m; i++) {
+	for(int i = 0; i<m; i++) { // 시간 복잡도 : O(M * logN)
 		result = search(store, 0, n-1, custom[i]);
 		if(result==-1) {
 			cout<<"no ";
