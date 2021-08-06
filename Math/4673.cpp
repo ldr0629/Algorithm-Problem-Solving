@@ -16,7 +16,7 @@ int main()
 	ios::sync_with_stdio(false);
 	cin.tie(0);
     
-  vector<bool> self_number(10001, true);
+ 	vector<bool> self_number(10001, true);
 	for(int i = 1; i<10001; i++) {
 		int data = d(i);
 		if(data<=10000) {
