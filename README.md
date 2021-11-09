@@ -1,43 +1,4 @@
-Algorithm Problem Solving (Baekjoon)
+# 알고리즘 문제 풀이(BOJ + 이것이 취업을 위한 코딩테스트다
 
-
-▶ dynamic programming
-
-
-▶ sort, string, data structure 
-
-
-▶ graph 
-
-
-▶ search(binary, ternary)
-
-
-▶ divide and conquer
-
-
-▶ greedy
-
-
-▶ brute force
-
-
-▶ implementation
-
-
-▶ DFS/BFS
-
-
-▶ tree
-
-
-▶ priority queue(Max Heap, Min Heap)
-
-
-▶ data type
-
-
-▶ two pointer
-
-
-▶ combination/permutation
+알고리즘 분류별 문제 풀이에 대한 코드가 올라와있습니다.
+최대한 효율적인 코드를 설계하고 고민합니다.
