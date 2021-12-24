@@ -1,6 +1,6 @@
 # 알고리즘 문제 풀이(BOJ + 이것이 취업을 위한 코딩테스트다)
 
-<span style="color:yellow">알고리즘 분류별 문제 풀이 코드 커밋</span>
+*알고리즘 분류별 문제 풀이 코드 커밋*
 
 ## 1. 입출력
 ## 2. DP
@@ -20,7 +20,7 @@
 ## 16. 투포인터
 ## 17. 조합/순열
 
-<span style="color:yellow">C++ 활용 STL</span>
+*C++ 활용 STL*
 
 ## vector <br>
 ## map <br>
