@@ -1,4 +1,4 @@
-# 알고리즘 문제 풀이(BOJ + 이것이 취업을 위한 코딩테스트다)
+# 알고리즘 문제 풀이
 
 ## *알고리즘 분류별 문제 풀이 코드 커밋*
 
@@ -31,3 +31,13 @@
 ### sort <br>
 ### iterator <br>
 ### binary_search <br>
+
+## 문제 출처
+
+### Sites
+
+[Baekjoon](https://www.acmicpc.net/)
+
+### Books
+
+[이것이 취업을 위한 코딩테스트다](http://www.yes24.com/Product/Goods/91433923)
