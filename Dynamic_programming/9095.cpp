@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iostream>
+
 using namespace std;
 
 // 테스트 케이스 변수 t와 경우의 수를 구하고자 하는 변수 n
