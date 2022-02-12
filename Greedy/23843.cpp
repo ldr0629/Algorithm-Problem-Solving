@@ -38,7 +38,7 @@ int main() {
 				sec += v[index++];
 			}
 			q.push(sec);
-    }
+    		}
     
 		for(int i = 0; i<m-1; i++) q.pop();
 		cout<<q.top();
