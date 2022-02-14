@@ -18,7 +18,7 @@ void dijkstra() {
 		int cur = pq.top().second;
 		pq.pop();
   
-    // 시간초과 방지를 위해서 최소 가중치 합이 이미 구해진 경우는 아래의 과정을 생략한다.
+    		// 시간초과 방지를 위해서 최소 가중치 합이 이미 구해진 경우는 아래의 과정을 생략한다.
 		if (dist[cur] < cost) continue;
 
 		for (int i = 0; i < graph[cur].size(); i++) {
@@ -36,10 +36,10 @@ void dijkstra() {
 }
 
 int main() {
-	// 정점의 개수와 간선리스트의 간선 수 입력
+	// 도시와 버스의 개수 입력
 	cin >> n >> m;
 
-	// 무방향 그래프이므로 양방향으로 정점과 가중치를 입력
+	// u번째 도시에서 v번째 도시까지 각 정점을 연결해주고, 간선의 가중치 입력
 	for (int i = 0; i < m; i++) {
 		int u, v, w;
 		cin >> u >> v >> w;
@@ -51,11 +51,11 @@ int main() {
 		dist[i] = INF;
 	}
 
-	// s에서 시작하여 t로 연결되는 시점에서 가중치의 합의 최솟값을 구한다.
+	// 출발, 도착점의 도시번호가 주어진 후 다익스트라 수행
 	cin >> city_s >> city_e;
 	dijkstra();
 
-	// s에서 t로 가는데에 최소 비용 출력
+	// 출발 도시에서 도착 도시까지 가는데 드는 최소 비용 출력
 	cout << dist[city_e];
 	return 0;
 }
