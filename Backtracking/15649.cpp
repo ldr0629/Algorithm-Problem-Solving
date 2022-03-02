@@ -6,6 +6,7 @@ int n, m;
 int arr[MAX];
 bool visited[MAX];
 
+// n개 중 m개의 수를 뽑아 나열한 경우를 모두 출력
 void dfs(int target) {
 	if (target == m) {
 		for (int i = 0; i < m; i++) {
