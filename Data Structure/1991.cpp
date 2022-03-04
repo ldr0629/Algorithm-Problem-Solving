@@ -21,6 +21,7 @@ int main() {
 		cin>>p>>ch1>>ch2;
 		link_node[p-'A'] = { ch1,ch2 };
 	}
+	// 루트 노드인 A부터 전위, 중위, 후위 순회한 결과를 각각 출력하고, 자식 노드가 없는 경우 .으로 표현된다.
 	preorder('A');
 	cout<<'\n';
 	inorder('A');
