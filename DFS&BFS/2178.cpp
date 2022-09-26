@@ -32,7 +32,7 @@ int main() {
 			int nx = x + dx[i];
 			if (ny < 0 || ny >= n || nx < 0 || nx >= m || mat[ny][nx] == 0) continue;
 			if (visited[ny][nx]) continue;
-			visited[ny][nx] = visited[y][x] + 1;
+			visited[ny][nx] = visited[y][x] + 1; // 가중치가 1로 같기때문에 BFS로 최단경로 해결 가능
 			q.push({ ny, nx });
 		}
 	}
