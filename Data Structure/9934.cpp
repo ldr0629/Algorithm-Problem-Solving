@@ -7,6 +7,7 @@ vector<int> h[11];
 int arr[1024];
 
 void dfs(int s, int e, int level) {
+	// 중위 순회에서 가운데 인덱스에 해당하는 값 추출
 	int m = (s + e) / 2;
 	h[level].push_back(arr[m]);
 	if (s == e) {
